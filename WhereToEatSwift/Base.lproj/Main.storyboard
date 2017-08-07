@@ -1,26 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g5n-yi-yxt">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--设置-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.78823529410000004" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="设置" image="Button_set" selectedImage="Button_set_sel" id="Grn-8a-CVr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="199" y="2024"/>
+        </scene>
+        <!--搜索-->
+        <scene sceneID="mQy-3U-I1l">
+            <objects>
+                <viewController id="VDH-bA-Xde" customClass="ViewController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aFo-SX-1U0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rt5-Fv-9P2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8qr-NL-OUc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99835795159999996" green="0.37816509599999998" blue="0.00065298989649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="搜索" image="Button_search" selectedImage="Button_search_sel" id="wmJ-CW-ghN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jri-hC-hoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="1170"/>
+        </scene>
+        <!--收藏-->
+        <scene sceneID="Lwj-d5-U3c">
+            <objects>
+                <viewController id="N49-CD-FYY" customClass="ViewController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oFL-vv-I9P"/>
+                        <viewControllerLayoutGuide type="bottom" id="niK-5g-gkk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5pz-PB-6Il">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.51465082169999998" blue="0.0015337103979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="收藏" image="Button" selectedImage="Button_sel" id="ESF-80-m5Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="64C-5m-qn1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="163"/>
+        </scene>
+        <!--Root Tabbar Controller-->
+        <scene sceneID="nyp-u9-W5R">
+            <objects>
+                <tabBarController id="g5n-yi-yxt" customClass="RootTabbarController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="KB8-Dw-Mfq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="N49-CD-FYY" kind="relationship" relationship="viewControllers" id="n1p-tP-W6S"/>
+                        <segue destination="VDH-bA-Xde" kind="relationship" relationship="viewControllers" id="0sI-oi-oGW"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0l4-rA-Oei"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sag-go-QPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906" y="1170"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Button" width="45" height="35"/>
+        <image name="Button_search" width="45" height="35"/>
+        <image name="Button_search_sel" width="45" height="35"/>
+        <image name="Button_sel" width="45" height="35"/>
+        <image name="Button_set" width="45" height="35"/>
+        <image name="Button_set_sel" width="45" height="35"/>
+    </resources>
 </document>
