@@ -16,6 +16,8 @@
 		9B49F7891F2986BF00C0DA86 /* WhereToEatSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49F7881F2986BF00C0DA86 /* WhereToEatSwiftUITests.swift */; };
 		9BB8B17D1F38534000920C40 /* RootTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B17C1F38534000920C40 /* RootTabbarController.swift */; };
 		9BB8B18C1F385C8400920C40 /* CommonMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B18B1F385C8400920C40 /* CommonMacros.swift */; };
+		9BB8B1921F3AAA9A00920C40 /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B1911F3AAA9A00920C40 /* XLSphereView.m */; };
+		9BB8B1961F3AFA0400920C40 /* ScrollLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		9B49F78A1F2986BF00C0DA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB8B17C1F38534000920C40 /* RootTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTabbarController.swift; path = ../../RootTabbarController.swift; sourceTree = "<group>"; };
 		9BB8B18B1F385C8400920C40 /* CommonMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMacros.swift; sourceTree = "<group>"; };
+		9BB8B18E1F3AAA9A00920C40 /* XLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMatrix.h; sourceTree = "<group>"; };
+		9BB8B18F1F3AAA9A00920C40 /* XLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPoint.h; sourceTree = "<group>"; };
+		9BB8B1901F3AAA9A00920C40 /* XLSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
+		9BB8B1911F3AAA9A00920C40 /* XLSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
+		9BB8B1931F3AAAF800920C40 /* OCBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCBridgeHeader.h; sourceTree = "<group>"; };
+		9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollLable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +192,8 @@
 		9BB8B1841F3853D900920C40 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9B49F76C1F2986BE00C0DA86 /* Main.storyboard */,
+				9BB8B1941F3AF9AD00920C40 /* Storyboard */,
+				9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB8B18B1F385C8400920C40 /* CommonMacros.swift */,
+				9BB8B1931F3AAAF800920C40 /* OCBridgeHeader.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -208,6 +218,7 @@
 		9BB8B1871F3853D900920C40 /* ThirdLibs */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8B18D1F3AAA9A00920C40 /* SphereView */,
 			);
 			path = ThirdLibs;
 			sourceTree = "<group>";
@@ -217,6 +228,25 @@
 			children = (
 			);
 			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		9BB8B18D1F3AAA9A00920C40 /* SphereView */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8B18E1F3AAA9A00920C40 /* XLMatrix.h */,
+				9BB8B18F1F3AAA9A00920C40 /* XLPoint.h */,
+				9BB8B1901F3AAA9A00920C40 /* XLSphereView.h */,
+				9BB8B1911F3AAA9A00920C40 /* XLSphereView.m */,
+			);
+			path = SphereView;
+			sourceTree = "<group>";
+		};
+		9BB8B1941F3AF9AD00920C40 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B49F76C1F2986BE00C0DA86 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +390,8 @@
 				9BB8B17D1F38534000920C40 /* RootTabbarController.swift in Sources */,
 				9B49F7691F2986BE00C0DA86 /* AppDelegate.swift in Sources */,
 				9BB8B18C1F385C8400920C40 /* CommonMacros.swift in Sources */,
+				9BB8B1921F3AAA9A00920C40 /* XLSphereView.m in Sources */,
+				9BB8B1961F3AFA0400920C40 /* ScrollLable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +433,7 @@
 				9B49F76D1F2986BE00C0DA86 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		9B49F7711F2986BE00C0DA86 /* LaunchScreen.storyboard */ = {
@@ -517,6 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WLTech.WhereToEatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanglei/Desktop/WhereToEatSwift/WhereToEatSwift/Macros/OCBridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -530,6 +563,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WLTech.WhereToEatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanglei/Desktop/WhereToEatSwift/WhereToEatSwift/Macros/OCBridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
