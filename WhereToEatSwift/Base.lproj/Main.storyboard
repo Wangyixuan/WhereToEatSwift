@@ -31,7 +31,7 @@
         <!--搜索-->
         <scene sceneID="mQy-3U-I1l">
             <objects>
-                <viewController id="VDH-bA-Xde" customClass="ViewController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VDH-bA-Xde" customClass="MapSearchViewController" customModule="WhereToEatSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aFo-SX-1U0"/>
                         <viewControllerLayoutGuide type="bottom" id="Rt5-Fv-9P2"/>

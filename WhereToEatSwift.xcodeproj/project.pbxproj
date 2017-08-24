@@ -17,7 +17,24 @@
 		9BB8B17D1F38534000920C40 /* RootTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B17C1F38534000920C40 /* RootTabbarController.swift */; };
 		9BB8B18C1F385C8400920C40 /* CommonMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B18B1F385C8400920C40 /* CommonMacros.swift */; };
 		9BB8B1921F3AAA9A00920C40 /* XLSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B1911F3AAA9A00920C40 /* XLSphereView.m */; };
-		9BB8B1961F3AFA0400920C40 /* ScrollLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */; };
+		9BB8B1A51F3DA75100920C40 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B19C1F3DA75100920C40 /* BaiduMapAPI_Base.framework */; };
+		9BB8B1A61F3DA75100920C40 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B19D1F3DA75100920C40 /* BaiduMapAPI_Location.framework */; };
+		9BB8B1A71F3DA75100920C40 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B19E1F3DA75100920C40 /* BaiduMapAPI_Map.framework */; };
+		9BB8B1A81F3DA75100920C40 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B19F1F3DA75100920C40 /* BaiduMapAPI_Search.framework */; };
+		9BB8B1A91F3DA75100920C40 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1A01F3DA75100920C40 /* BaiduMapAPI_Utils.framework */; };
+		9BB8B1AA1F3DA75100920C40 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8B1A11F3DA75100920C40 /* mapapi.bundle */; };
+		9BB8B1AB1F3DA75100920C40 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1A31F3DA75100920C40 /* libcrypto.a */; };
+		9BB8B1AC1F3DA75100920C40 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1A41F3DA75100920C40 /* libssl.a */; };
+		9BB8B1AF1F3DA84D00920C40 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1AE1F3DA84D00920C40 /* CoreTelephony.framework */; };
+		9BB8B1B11F3DA87400920C40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1B01F3DA87400920C40 /* QuartzCore.framework */; };
+		9BB8B1B31F3DA88200920C40 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1B21F3DA88200920C40 /* OpenGLES.framework */; };
+		9BB8B1B51F3DA88D00920C40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1B41F3DA88D00920C40 /* SystemConfiguration.framework */; };
+		9BB8B1B71F3DA89900920C40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1B61F3DA89900920C40 /* CoreGraphics.framework */; };
+		9BB8B1B91F3DA8A100920C40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1B81F3DA8A100920C40 /* Security.framework */; };
+		9BB8B1BB1F3DA8B300920C40 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1BA1F3DA8B300920C40 /* libsqlite3.0.tbd */; };
+		9BB8B1BD1F3DA8C800920C40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1BC1F3DA8C800920C40 /* CoreLocation.framework */; };
+		9BB8B1BF1F3DA8D200920C40 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB8B1BE1F3DA8D200920C40 /* libstdc++.6.0.9.tbd */; };
+		9BB8B1C31F3DAC3400920C40 /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8B1C21F3DAC3400920C40 /* MapSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +75,24 @@
 		9BB8B1901F3AAA9A00920C40 /* XLSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSphereView.h; sourceTree = "<group>"; };
 		9BB8B1911F3AAA9A00920C40 /* XLSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSphereView.m; sourceTree = "<group>"; };
 		9BB8B1931F3AAAF800920C40 /* OCBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCBridgeHeader.h; sourceTree = "<group>"; };
-		9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollLable.swift; sourceTree = "<group>"; };
+		9BB8B19C1F3DA75100920C40 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		9BB8B19D1F3DA75100920C40 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		9BB8B19E1F3DA75100920C40 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		9BB8B19F1F3DA75100920C40 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		9BB8B1A01F3DA75100920C40 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		9BB8B1A11F3DA75100920C40 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		9BB8B1A31F3DA75100920C40 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		9BB8B1A41F3DA75100920C40 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		9BB8B1AE1F3DA84D00920C40 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9BB8B1B01F3DA87400920C40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9BB8B1B21F3DA88200920C40 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9BB8B1B41F3DA88D00920C40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9BB8B1B61F3DA89900920C40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BB8B1B81F3DA8A100920C40 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9BB8B1BA1F3DA8B300920C40 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9BB8B1BC1F3DA8C800920C40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9BB8B1BE1F3DA8D200920C40 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9BB8B1C21F3DAC3400920C40 /* MapSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +100,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB8B1BF1F3DA8D200920C40 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9BB8B1BD1F3DA8C800920C40 /* CoreLocation.framework in Frameworks */,
+				9BB8B1BB1F3DA8B300920C40 /* libsqlite3.0.tbd in Frameworks */,
+				9BB8B1B91F3DA8A100920C40 /* Security.framework in Frameworks */,
+				9BB8B1B71F3DA89900920C40 /* CoreGraphics.framework in Frameworks */,
+				9BB8B1B51F3DA88D00920C40 /* SystemConfiguration.framework in Frameworks */,
+				9BB8B1B31F3DA88200920C40 /* OpenGLES.framework in Frameworks */,
+				9BB8B1B11F3DA87400920C40 /* QuartzCore.framework in Frameworks */,
+				9BB8B1AF1F3DA84D00920C40 /* CoreTelephony.framework in Frameworks */,
+				9BB8B1A51F3DA75100920C40 /* BaiduMapAPI_Base.framework in Frameworks */,
+				9BB8B1A61F3DA75100920C40 /* BaiduMapAPI_Location.framework in Frameworks */,
+				9BB8B1AC1F3DA75100920C40 /* libssl.a in Frameworks */,
+				9BB8B1AB1F3DA75100920C40 /* libcrypto.a in Frameworks */,
+				9BB8B1A81F3DA75100920C40 /* BaiduMapAPI_Search.framework in Frameworks */,
+				9BB8B1A91F3DA75100920C40 /* BaiduMapAPI_Utils.framework in Frameworks */,
+				9BB8B1A71F3DA75100920C40 /* BaiduMapAPI_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +143,7 @@
 				9B49F77C1F2986BE00C0DA86 /* WhereToEatSwiftTests */,
 				9B49F7871F2986BF00C0DA86 /* WhereToEatSwiftUITests */,
 				9B49F7661F2986BE00C0DA86 /* Products */,
+				9BB8B1AD1F3DA84D00920C40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +214,7 @@
 			children = (
 				9B49F76A1F2986BE00C0DA86 /* ViewController.swift */,
 				9BB8B17C1F38534000920C40 /* RootTabbarController.swift */,
+				9BB8B1C21F3DAC3400920C40 /* MapSearchViewController.swift */,
 				9BB8B1811F3853D900920C40 /* Base */,
 			);
 			path = Controllers;
@@ -193,7 +245,6 @@
 			isa = PBXGroup;
 			children = (
 				9BB8B1941F3AF9AD00920C40 /* Storyboard */,
-				9BB8B1951F3AFA0400920C40 /* ScrollLable.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +277,7 @@
 		9BB8B1881F3853D900920C40 /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8B19B1F3DA75100920C40 /* BaiduMap */,
 			);
 			path = ThirdSDK;
 			sourceTree = "<group>";
@@ -247,6 +299,45 @@
 				9B49F76C1F2986BE00C0DA86 /* Main.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9BB8B19B1F3DA75100920C40 /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8B19C1F3DA75100920C40 /* BaiduMapAPI_Base.framework */,
+				9BB8B19D1F3DA75100920C40 /* BaiduMapAPI_Location.framework */,
+				9BB8B19E1F3DA75100920C40 /* BaiduMapAPI_Map.framework */,
+				9BB8B19F1F3DA75100920C40 /* BaiduMapAPI_Search.framework */,
+				9BB8B1A01F3DA75100920C40 /* BaiduMapAPI_Utils.framework */,
+				9BB8B1A11F3DA75100920C40 /* mapapi.bundle */,
+				9BB8B1A21F3DA75100920C40 /* thirdlibs */,
+			);
+			path = BaiduMap;
+			sourceTree = "<group>";
+		};
+		9BB8B1A21F3DA75100920C40 /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8B1A31F3DA75100920C40 /* libcrypto.a */,
+				9BB8B1A41F3DA75100920C40 /* libssl.a */,
+			);
+			path = thirdlibs;
+			sourceTree = "<group>";
+		};
+		9BB8B1AD1F3DA84D00920C40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8B1BE1F3DA8D200920C40 /* libstdc++.6.0.9.tbd */,
+				9BB8B1BC1F3DA8C800920C40 /* CoreLocation.framework */,
+				9BB8B1BA1F3DA8B300920C40 /* libsqlite3.0.tbd */,
+				9BB8B1B81F3DA8A100920C40 /* Security.framework */,
+				9BB8B1B61F3DA89900920C40 /* CoreGraphics.framework */,
+				9BB8B1B41F3DA88D00920C40 /* SystemConfiguration.framework */,
+				9BB8B1B21F3DA88200920C40 /* OpenGLES.framework */,
+				9BB8B1B01F3DA87400920C40 /* QuartzCore.framework */,
+				9BB8B1AE1F3DA84D00920C40 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B49F7731F2986BE00C0DA86 /* LaunchScreen.storyboard in Resources */,
+				9BB8B1AA1F3DA75100920C40 /* mapapi.bundle in Resources */,
 				9B49F7701F2986BE00C0DA86 /* Assets.xcassets in Resources */,
 				9B49F76E1F2986BE00C0DA86 /* Main.storyboard in Resources */,
 			);
@@ -387,11 +479,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B49F76B1F2986BE00C0DA86 /* ViewController.swift in Sources */,
+				9BB8B1C31F3DAC3400920C40 /* MapSearchViewController.swift in Sources */,
 				9BB8B17D1F38534000920C40 /* RootTabbarController.swift in Sources */,
 				9B49F7691F2986BE00C0DA86 /* AppDelegate.swift in Sources */,
 				9BB8B18C1F385C8400920C40 /* CommonMacros.swift in Sources */,
 				9BB8B1921F3AAA9A00920C40 /* XLSphereView.m in Sources */,
-				9BB8B1961F3AFA0400920C40 /* ScrollLable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,8 +637,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5PE98ZY97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhereToEatSwift/ThirdSDK/BaiduMap",
+				);
 				INFOPLIST_FILE = WhereToEatSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhereToEatSwift/ThirdSDK/BaiduMap/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WLTech.WhereToEatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanglei/Desktop/WhereToEatSwift/WhereToEatSwift/Macros/OCBridgeHeader.h;
@@ -559,8 +660,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D5PE98ZY97;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhereToEatSwift/ThirdSDK/BaiduMap",
+				);
 				INFOPLIST_FILE = WhereToEatSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhereToEatSwift/ThirdSDK/BaiduMap/thirdlibs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WLTech.WhereToEatSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/wanglei/Desktop/WhereToEatSwift/WhereToEatSwift/Macros/OCBridgeHeader.h;

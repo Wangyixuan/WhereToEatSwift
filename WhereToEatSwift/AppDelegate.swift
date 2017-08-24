@@ -9,13 +9,22 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,BMKGeneralDelegate {
 
     var window: UIWindow?
-
+    var mapManager : BMKMapManager?
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        mapManager = BMKMapManager()
+        let ret = mapManager?.start("9dPwqneCoLLIMxy8Fhr0EhxHGR45oy9d", generalDelegate:  self)
+        if ret == false {
+            NSLog("manager start failed!")
+        }
+        
+        
         return true
     }
 
